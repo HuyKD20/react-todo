@@ -29,11 +29,52 @@ p1 {
 p2{
   font-size: 14px;
   margin-left: 52px;
-
  }
 .Menu{
-  height: 980px;
+  height: 900px;
   width: 236px;
   background-color: white;
-  position: absolute;
+  position: static;
+}
+#table {
+  border-collapse: collapse;
+  width: 100%;
+  column-width: 25px;
+
+}
+
+#table td, #table th {
+  padding: 8px;
+}
+#table tr:nth-child(even){background-color: #D6EEEE;}
+
+#table tr:hover {background-color: white;}
+
+#table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #A0BCCF;
+  color: white;
+}
+.Add-User {
+  width: 160px;
+  height: 48px;
+  background: #40A0D6;
+  border-radius: 15px;
+}
+.Api {
+  width: 1200px;
+  background: #ffff;
+  margin-left: 24px;
+  margin-top: -76px;
+  padding: 15px;
+  border-radius: 20px;
+}
+
+.Member{
+  width: 1156px;
+  height: 704px;
+  border-radius: 8px;
+
 }
